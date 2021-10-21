@@ -22,11 +22,9 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: light;
 }
-p {
 
-}
 a {
-  color: rgb(128, 0, 0);
+  color: rgb(196, 135, 23);
 }
 a:link {
   text-decoration: none;
@@ -46,4 +44,13 @@ ul {
   padding-right: 5em;
   padding-left: 5em;
   margin-top: 0.5em;
+}
+
+#drawingArea {
+  border-style: solid;
+  position: relative;
+}
+
+footer {
+  text-align: center;
 }
