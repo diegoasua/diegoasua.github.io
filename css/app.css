@@ -6,17 +6,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  color: rgb(100,100,100);
+  color: rgb(100, 100, 100);
   font-size: large;
   font-weight: regular;
   font-family: 'Raleway', serif;
   font-weight: light;
 }
+
 h1 {
   color: rgb(22, 2, 31);
   font-weight: normal;
   font-family: 'Crimson Text', serif;
 }
+
 h2 {
   color: rgb(196, 135, 23);
   font-family: 'Raleway', sans-serif;
@@ -26,18 +28,23 @@ h2 {
 a {
   color: rgb(196, 135, 23);
 }
+
 a:link {
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 a:active {
   text-decoration: underline;
 }
+
 ul {
   list-style-type: circle;
   list-style-position: inside;
@@ -57,11 +64,47 @@ footer {
   box-sizing: border-box;
 }
 
+img {
+  clip-path: circle(4rem);
+}
+
 
 .column {
   float: left;
   width: 50%;
   padding: 10px;
+  margin-top: 70px;
+}
+
+
+/* .shimmy {
+  background-color: ;
+} */
+
+.shimmy {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 1em;
+  padding-bottom: 3em;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 /* Responsive layout*/
